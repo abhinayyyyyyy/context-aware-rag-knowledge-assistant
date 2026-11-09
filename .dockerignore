@@ -1,0 +1,45 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Environment and secret files
+.env
+.env.*
+*.env
+
+# Virtual environments
+venv/
+venv312/
+.venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local uploaded documents and storage (use persistent volumes or S3 in container deployments)
+data/storage/
+data/uploads/
+data/local_storage/
+storage/
+uploads/
+data/documents/*.pdf
+*.pdf
+
+# Editor and OS metadata
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.gemini/
+
+# Build and egg metadata
+build/
+dist/
+*.egg-info/
